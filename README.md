@@ -1,17 +1,22 @@
 # 🎭 Emotion Detection System
 
-Project_Structure
+## 🏗️ Project Structure
 
+```
 CNN_Emotion-Expression_Detection/
-├── app.py                  # Web interface (Streamlit)
+├── streamlit_app.py          # Web interface (Streamlit)
 ├── train.py                  # Model training script
 ├── realtime.py               # Real-time camera detection
 ├── emotion_model.h5          # Pre-trained CNN model
 ├── requirements.txt          # Python dependencies
+├── .streamlit/               # Streamlit configuration
+│   └── config.toml
 ├── data/                     # Dataset directory (not included in repo)
 │   ├── train/               # Training images
 │   └── test/                # Testing images
 └── README.md                # This file
+```
+
 
 A deep learning-based facial emotion recognition system that detects 7 human emotions in real-time using Convolutional Neural Networks (CNN).
 
