@@ -33,8 +33,8 @@ A deep learning-based facial emotion recognition system that detects 7 human emo
 
 ## 📊 Emotion Categories
 
-| Emotion | Description | Sample |
-|---------|-------------|--------|
+| Emotion | Description | 
+|---------|-------------|
 | 😠 Angry | Expressions of anger or frustration | 
 | 🤢 Disgust | Feelings of revulsion or strong disapproval | 
 | 😨 Fear | Expressions of fear or anxiety | 
