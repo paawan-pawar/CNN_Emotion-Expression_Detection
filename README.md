@@ -4,17 +4,16 @@
 
 ```
 CNN_Emotion-Expression_Detection/
-├── streamlit_app.py          # Web interface (Streamlit)
+├── app.py                    # Web interface (Streamlit)
 ├── train.py                  # Model training script
 ├── realtime.py               # Real-time camera detection
 ├── emotion_model.h5          # Pre-trained CNN model
+├── haarcascade_frontalface_default.xml  # Face detection classifier
 ├── requirements.txt          # Python dependencies
-├── .streamlit/               # Streamlit configuration
-│   └── config.toml
 ├── data/                     # Dataset directory (not included in repo)
-│   ├── train/               # Training images
-│   └── test/                # Testing images
-└── README.md                # This file
+│   ├── train/                # Training images
+│   └── test/                 # Testing images
+└── README.md                 # This file
 ```
 
 
